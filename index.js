@@ -143,8 +143,10 @@ app.delete("/api/todos/:id", async (req, res) => {
   }
 });
 
-app.listen(PORT, () =>
-  console.log(
-    new Date().toLocaleTimeString() + `: Server berjalan di PORT ${PORT}...`,
-  ),
-);
+// app.listen(PORT, () =>
+//   console.log(
+//     new Date().toLocaleTimeString() + `: Server berjalan di PORT ${PORT}...`,
+//   ),
+// );
+
+export default app;
